@@ -37,7 +37,7 @@ const MAX_TERM:u16 = 6*24*30; // approx. one month.
 const RBF:u32 = 0xffffffff - 2;
 
 pub struct Wallet {
-    coins: Coins,
+    pub coins: Coins,
     pub master: MasterAccount
 }
 
